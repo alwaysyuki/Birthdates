@@ -1,0 +1,64 @@
+# ==============================================================================
+# Birthdates - Birthday & Event Tracking for macOS
+# Git Ignore Configuration
+# ==============================================================================
+
+# Xcode User Data & Local State
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+*.xcbkptlist
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Build Products & Derived Data
+build/
+DerivedData/
+release/
+*.zip
+*.sha256
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app.dSYM
+*.dmg
+*.pkg
+
+# AppKit / Xcode Perspectives
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/configuration/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Temporary files, logs & environment
+*.log
+*.tmp
+*.swp
+*.bak
+*~
+.cache/
+.env
+.env.local
+.env.*.local
